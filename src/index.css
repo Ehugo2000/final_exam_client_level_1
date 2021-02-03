@@ -18,6 +18,9 @@ code {
 
 .footer {
   background-color: rgb(65, 65, 65);
+  height:  40px;
+  width: auto;
+  position: absolute;
 }
 
 .display-show {
