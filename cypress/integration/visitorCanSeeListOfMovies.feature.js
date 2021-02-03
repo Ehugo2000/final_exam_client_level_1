@@ -7,11 +7,11 @@ describe('Visitor can see a list of series', () => {
       url: 'https://content.viaplay.se/pc-se/serier/samtliga',
       response: "fixture:viaplay_response.json"
     })
-    cy.visit("/")
+    cy.visit("http://localhost:3000")
   })
   it('successfully when visiting root path', () => {
-    cy.get("[data-cy='movie-index']").within(() => {
-      cy.contains('')
+    cy.get("[data-cy='serie-index']").within(() => {
+     
     })
     
   });
